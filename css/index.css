@@ -1,0 +1,27 @@
+@media (min-width: 576px) {}
+
+@media (max-width: 576px) {}
+
+@media only screen and (min-width: 768px) {
+    #resumo-1-mobile{
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #resumo-1-desktop{
+        display: none !important;
+    }
+}
+
+@media (min-width: 992px) {}
+
+@media (max-width: 992px) {}
+
+@media (min-width: 1200px) {}
+
+@media (max-width: 1200px) {}
+
+.card {
+    border-radius: 30% 0 30% 0 !important;
+}

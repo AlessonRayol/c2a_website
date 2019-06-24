@@ -7,195 +7,274 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://kit.fontawesome.com/0b1124127f.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body class="container-fluid">
-    <header id="menu" class="sticky-top">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <img src="assets/c2a/c2a-logo-vetor.png" alt="" style="height: 100px; width: 150px;">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+<header id="menu" class="mb-3">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <img src="assets/c2a/c2a-logo-vetor.png" alt="Logo da empresa C2A" style="height: 100px; width: 150px;">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav mx-auto my-auto">
-                    <li class="nav-item mx-5">
-                        <a class="nav-link" href="#">Serviços</a>
-                    </li>
-                    <li class="nav-item mx-5">
-                        <a class="nav-link" href="#">Contatos</a>
-                    </li>
-                    <li class="nav-item mx-5">
-                        <a class="nav-link" href="#">Clientes</a>
-                    </li>
-                    <li class="nav-item mx-5">
-                        <a class="nav-link" href="#">Parceiros</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-    <section id="descrissao">
-        <div class="d-inline">
-            <div class="row">
-                <div class="col-sm text-center p-2 my-auto">
-                    <img src="assets/c2a/c2a-asset-0.png" class="img-fluid" , style="min-width: 300px !important"
-                        alt="Responsive image">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto my-auto">
+                <li class="nav-item mx-5">
+                    <a class="nav-link" href="#servicos">Serviços</a>
+                </li>
+                <li class="nav-item mx-5">
+                    <a class="nav-link" href="#contatos">Contatos</a>
+                </li>
+                <li class="nav-item mx-5">
+                    <a class="nav-link" href="#clientes">Clientes</a>
+                </li>
+                <li class="nav-item mx-5">
+                    <a class="nav-link" href="#parceiros">Parceiros</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<section id="resumo-1-mobile">
+</section>
+<section id="resumo-1-desktop" class="mb-3">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img style="width: 100% !important; height: 500px !important;" class="d-block w-100" src="https://www.crucial.com.au/wp-content/uploads/2015/01/partnerprog_wrapper.jpg">
+                <div class="carousel-caption d-none d-md-block" style="color:#000 !important;">
+                    <h1>Locação de Impressoras.</h1>
+                    <h5>Mais de 3 mil impressoras locadas em regime de outsourcing em mais de 200 localidades em todo o pais, a grande maioria na região amazonica.</h5>
                 </div>
-                <div class="col-sm text-center p-2 my-auto">
-                    <blockquote class="border rounded-lg border-info" style="border-width: 5px !important">
-                        <h1 class="my-5">
-                            Uma empresa especializada em renovar o seu negócio
-                        </h1>
-                        <p class="my-5">
-                            A C2A com sede em Belém do Pará, atuando há mais de 25 anos no mercado, é a maior empresa da
-                            região norte na área de outsourcing de impressão. Possuindo um parque de mais de 3 mil
-                            impressoras locadas. Com vasta experiência na logística atendendo em mais de 100 localidades
-                            em toda a região amazônica.
-                        </p>
-                    </blockquote>
+            </div>
+            <div class="carousel-item">
+                <img style="width: 100% !important; height: 500px !important;" class="d-block w-100" src="https://www.crucial.com.au/wp-content/uploads/2015/01/partnerprog_wrapper.jpg">
+                <div class="carousel-caption d-none d-md-block" style="color:#000;">
+                    <h1>GED (gestão de documentos)</h1>
+                    <h5>Controlamos mais de 10 milhões de impressões por mes.</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img style="width: 100% !important; height: 500px !important;" class="d-block w-100" src="https://www.crucial.com.au/wp-content/uploads/2015/01/partnerprog_wrapper.jpg">
+                <div class="carousel-caption d-none d-md-block" style="color:#000;">
+                    <h1>Digitalização de Documentos</h1>
+                    <h5>Temos softwares especificos para as mais variadas aplicações  de processos:
+                        - processos de sistemas bancarios
+                        - processos hospitalares
+                        - processos de escritorios de advocacia
+                        - entre outros</h5>
                 </div>
             </div>
         </div>
-    </section>
-    <section id="servicos">
-        <h1 class="display-4 text-center my-5"><u>SERVIÇOS</u></h1>
-        <div class="d-inline">
+    </div>
+</section>
+<section id="descrissao" class="mb-3">
+    <div class="d-block">
+        <div class="row">
+            <div class="col-sm text-center p-2 my-auto">
+                <img src="assets/c2a/c2a-asset-1.png" class="img-fluid" style="min-width: 300px !important" alt="pessoas trabalhando em ambiente de escritorio">
+            </div>
+            <div class="col-sm text-center p-2 my-auto">
+                <blockquote class="border rounded-lg border-info" style="border-width: 5px !important">
+                    <h1 class="my-5">
+                        Uma empresa especializada em renovar o seu negócio
+                    </h1>
+                    <p class="my-5">
+                        A C2A com sede em Belém do Pará, atuando há mais de 25 anos no mercado, é a maior empresa da região norte na área de outsourcing de impressão. Possuindo um parque de mais de 3 mil impressoras locadas. Com vasta experiência na logística atendendo em mais de 100 localidades em toda a região amazônica.
+                    </p>
+                </blockquote>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="resumo-2">
+    <div class="d-block mb-3">
+        <div class="col">
             <div class="row">
-                <div class="col-sm bg-secondary text-center text-white m-2">
-                    <div class="display-1">
-                        <i class="fas fa-print"></i>
+                <div class="col-sm">
+                    <div class="card bg-secondary text-white text-center m-2">
+                        <div class="card-body">
+                            <h5 class="card-title">O que é outsourcing?</h5>
+                            <p class="card-text">Mais do que a contratação de uma atividade ou serviço, o outsourcing pode ser fonte de redução de custos diretos e indiretos, alem de criar a possibilidade de trazer mais conhecimento, eficiente e tecnologia pra dentro da sua empresa.</p>
+                        </div>
                     </div>
-                    <h1>
-                        Locação de impressoras
-                    </h1>
-                    <p>
-                        A C2A é a maior empresa da região norte na área de outsourcing de impressão, possuindo uma
-                        parque de mais de 3 mil impressoras locadas.
-                    </p>
                 </div>
-                <div class="col-sm bg-secondary text-center text-white m-2">
-                    <div class="display-1">
-                        <i class="fas fa-cloud-upload-alt"></i>
+                <div class="col-sm">
+                    <div class="card bg-secondary text-white text-center m-2">
+                        <div class="card-body">
+                            <h5 class="card-title">Monitoramento</h5>
+                            <p class="card-text">Fazemos o monitormaneto de todos os equipamentos locados, isto significa que controlamos em nossa sede, a gestão logistica de insumos e manutenção das maquinas.</p>
+                        </div>
                     </div>
-                    <h1>
-                        Gestão de Documentos
-                    </h1>
-                    <p>
-                        Com o Sistema de Gestão de Documentos, você acompanha todo o processo de criação, revisão,
-                        aprovação e publicação dos seus documentos, tudo em um só lugar, contribuindo para redução de
-                        custos operacionais, desperdício de papel e retrabalho.
-                    </p>
                 </div>
-                <div class="col-sm bg-secondary text-center text-white m-2">
-                    <div class="display-1">
-                        <i class="far fa-copy"></i>
+            </div>
+            <div class="row">
+                <div class="col-sm">
+                    <div class="card bg-secondary text-white text-center m-2">
+                        <div class="card-body">
+                            <h5 class="card-title">Logistica</h5>
+                            <p class="card-text">Mantemos estoque de impressoras insumos (toner, cilindro, foto condutor, unidades de fusão etc) para o uso exclusivo de nossos clientes.</p>
+                        </div>
                     </div>
-                    <h1>
-                        Digitalização e impressão de documentos
-                    </h1>
-                    <p>
-                        Somos especialistas em impressão de documentos de baixa e larga escala e possuímos as mais
-                        avançadas técnicas para digitalização de documentos consulte nossas condições especiais.
-                    </p>
+                </div>
+                <div class="col-sm">
+                    <div class="card bg-secondary text-white text-center m-2">
+                        <div class="card-body">
+                            <h5 class="card-title">Assistencia Tecnica</h5>
+                            <p class="card-text">Temos em nosso quadro funcional, dezenas de tecnico treinados e aptos a atender nosso parque de mais de 3 mil equipamentos espalhados pelo pais.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </section>
-    <section id="contatos">
-        <h1 class="display-4 text-center my-5"><u>CONTATOS</u></h1>
-        <div class="d-inline">
-            <div class="row">
-                <div class="col-sm bg-info text-center text-white m-2">
-                    <h1 class="my-5"><i class="far fa-envelope"></i> E-MAIL</h1>
-                    <a class="text-white font-italic" href="mailto:c2a@selecao.com.br?Subject=COMERCIAL">
-                        <p class="my-5">selecao@c2a.com.br</p>
+    </div>
+</section>
+<section id="servicos" class="my-5">
+    <h1 class="display-5 text-center">SERVIÇOS</h1>
+    <div class="d-inline">
+        <div class="row">
+            <div class="col-sm bg-secondary text-center text-white m-2">
+                <div class="display-1">
+                    <i class="fas fa-print"></i>
+                </div>
+                <h1>
+                    Locação de impressoras
+                </h1>
+                <p>
+                    A C2A é a maior empresa da região norte na área de outsourcing de impressão, possuindo uma parque de mais de 3 mil impressoras locadas.
+                </p>
+            </div>
+            <div class="col-sm bg-secondary text-center text-white m-2">
+                <div class="display-1">
+                    <i class="fas fa-cloud-upload-alt"></i>
+                </div>
+                <h1>
+                    Gestão de Documentos
+                </h1>
+                <p>
+                    Com o Sistema de Gestão de Documentos, você acompanha todo o processo de criação, revisão, aprovação e publicação dos seus documentos, tudo em um só lugar, contribuindo para redução de custos operacionais, desperdício de papel e retrabalho.
+                </p>
+            </div>
+            <div class="col-sm bg-secondary text-center text-white m-2">
+                <div class="display-1">
+                    <i class="far fa-copy"></i>
+                </div>
+                <h1>
+                    Digitalização e impressão de documentos
+                </h1>
+                <p>
+                    Somos especialistas em impressão de documentos de baixa e larga escala e possuímos as mais avançadas técnicas para digitalização de documentos consulte nossas condições especiais.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="clientes" class="mb-5">
+    <h1 class="display-5 text-center">CLIENTES</h1>
+    <div class="d-inline text-center">
+        <div class="row-xs">
+            <img class="img-fluid m-3" src="assets/clientes/basa-logo.png" alt=""
+                 style="height: 100px; width: 100px;">
+            <img class="img-fluid m-3" src="assets/clientes/banpara-logo.png" alt=""
+                 style="height: 100px; width: 100px;">
+            <img class="img-fluid m-3" src="assets/clientes/inss-logo.png" alt=""
+                 style="height: 100px; width: 100px;">
+            <img class="img-fluid m-3" src="assets/clientes/policia-civil-logo.png" alt=""
+                 style="height: 100px; width: 100px;">
+            <img class="img-fluid m-3" src="assets/clientes/sefa-logo.png" alt=""
+                 style="height: 100px; width: 100px;">
+            <img class="img-fluid m-3" src="assets/clientes/segup-logo.png" alt=""
+                 style="height: 100px; width: 100px;">
+            <img class="img-fluid m-3" src="assets/clientes/tre-logo.png" alt=""
+                 style="height: 100px; width: 100px;">
+            <img class="img-fluid m-3" src="assets/clientes/senac-logo.png" alt=""
+                 style="height: 100px; width: 100px;">
+            <img class="img-fluid m-3" src="assets/clientes/faspm-logo.png" alt=""
+                 style="height: 100px; width: 100px;">
+            <img class="img-fluid m-3" src="assets/clientes/mte-logo.png" alt=""
+                 style="height: 100px; width: 100px;">
+        </div>
+    </div>
+</section>
+<section id="parceiros">
+    <div class="d-inline text-center">
+        <h1 class="display-5 mb-5">PARCEIROS</h1>
+        <div class="row">
+            <div class="col-sm mb-5">
+                <img class="img-fluid" src="assets/parceiros/lexmark-logo.png" alt="lexmark"
+                     style="width: 250px; height: 100px;">
+            </div>
+            <div class="col-sm mb-5">
+                <img class="img-fluid" src="assets/parceiros/nddprint-logo.png" alt="nddprint"
+                     style="width: 250px; height: 100px;">
+            </div>
+        </div>
+    </div>
+</section>
+<section id="contatos">
+    <footer class="p-2 bg-secondary">
+        <ul class="list-group list-group-flush">
+            <li class="bg-secondary text-white list-group-item">
+                <h4>Fale Conosco</h4>
+            </li>
+            <li class="bg-secondary text-white list-group-item">
+                <p>
+                    <i class="fab fa-whatsapp"></i>
+                    <a class="text-white" href="https://api.whatsapp.com/send?phone=5591984147393">
+                        Whatsapp: (91) 98414-7393
                     </a>
-                </div>
-                <div class="col-sm bg-success text-center text-white m-2">
-                    <h1 class="my-5"><i class="fab fa-whatsapp"></i> WHATSAPP</h1>
-                    <p class="my-5">(91) 98414-7393</p>
-                </div>
-                <div class="col-sm bg-warning text-center text-white m-2">
-                    <h1 class="my-5"><i class="fas fa-phone"></i> TELEFONE</h1>
-                    <p class="my-5">(91) 4008-4008</p>
-                </div>
-                <div class="col-sm bg-secondary text-center text-white m-2">
-                    <h1 class="my-5"><i class="far fa-address-card"></i> ENDEREÇO</h1>
-                    <p class="my-5">Av. Gentil Bittencourt ,554. Belém, PA </p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="clientes">
-        <h1 class="display-4 text-center my-5"><u>CLIENTES</u></h1>
-        <div class="d-inline text-center">
-            <div class="row-xs">
-                <img class="img-fluid m-3" src="assets/clientes/basa-logo.png" alt=""
-                    style="height: 100px; width: 100px;">
-                <img class="img-fluid m-3" src="assets/clientes/banpara-logo.png" alt=""
-                    style="height: 100px; width: 100px;">
-                <img class="img-fluid m-3" src="assets/clientes/inss-logo.png" alt=""
-                    style="height: 100px; width: 100px;">
-                <img class="img-fluid m-3" src="assets/clientes/policia-civil-logo.png" alt=""
-                    style="height: 100px; width: 100px;">
-                <img class="img-fluid m-3" src="assets/clientes/sefa-logo.png" alt=""
-                    style="height: 100px; width: 100px;">
-                <img class="img-fluid m-3" src="assets/clientes/segup-logo.png" alt=""
-                    style="height: 100px; width: 100px;">
-                <img class="img-fluid m-3" src="assets/clientes/tre-logo.png" alt=""
-                    style="height: 100px; width: 100px;">
-                <img class="img-fluid m-3" src="assets/clientes/senac-logo.png" alt=""
-                    style="height: 100px; width: 100px;">
-                <img class="img-fluid m-3" src="assets/clientes/faspm-logo.png" alt=""
-                    style="height: 100px; width: 100px;">
-                <img class="img-fluid m-3" src="assets/clientes/mte-logo.png" alt=""
-                    style="height: 100px; width: 100px;">
-            </div>
-        </div>
-    </section>
-    <section id="parceiros">
-        <div class="d-inline text-center">
-            <h1 class="display-4 my-5"><u>PARCEIROS</u></h1>
-            <div class="row">
-                <div class="col-sm mb-5">
-                    <img class="img-fluid" src="assets/parceiros/lexmark-logo.png" alt="lexmark"
-                        style="width: 250px; height: 100px;">
-                </div>
-                <div class="col-sm mb-5">
-                    <img class="img-fluid" src="assets/parceiros/nddprint-logo.png" alt="nddprint"
-                        style="width: 250px; height: 100px;">
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="footer" style="background-color: black !important">
-        <footer class="p-2">
-            <div class="text-center text-white">
-                <p>©2019 Copyright: Vinicius Valente</p>
-            </div>
-        </footer>
-    </section>
-    <section style="position: fixed !important; right:15px !important; bottom: 5px !important;">
-        <a class="text-dark" href="https://api.whatsapp.com/send?phone=5591984147393" role="button">
-            <h1><i class="fab fa-whatsapp-square fa-lg"></i></h1>
-        </a>
-        <a class="text-dark" href="mailto:c2a@selecao.com.br?Subject=COMERCIAL" role="button">
-            <h1><i class="fas fa-envelope-square fa-lg"></i></h1>
-        </a>
-        <a class="text-dark" href="tel:+55914008-4008" role="button">
-            <h1><i class="fas fa-phone-square fa-lg"></i></h1>
-        </a>
-    </section>
-    <script src="js/main.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+                </p>
+            </li>
+            <li class="bg-secondary text-white list-group-item">
+                <p>
+                    <i class="far fa-envelope"></i>
+                    <a class="text-white" href="mailto:c2a@selecao.com.br?Subject=COMERCIAL">
+                        E-mail: c2a@selecao.com.br
+                    </a>
+                </p>
+            </li>
+            <li class="bg-secondary text-white list-group-item">
+                <p>
+                    <i class="fas fa-phone"></i>
+                    <a class="text-white" href="tel:+55914008-4008">
+                        Telefone: (91) 4008-4008
+                    </a>
+                </p>
+            </li>
+            <li class="bg-secondary text-white list-group-item">
+                <h5 class="mb-1">Endereço</h5>
+                <p class="mb-1">Avenida Gentil de Bittencourt. N 554. Entre Rui Barbosa e Benjamin Constant</p>
+                <small>De Segunda a Sexta das 8h as 18h</small>
+            </li>
+        </ul>
+        <p class="text-center text-white mt-5">©2019 Copyright: Vinicius Valente</p>
+    </footer>
+</section>
+<section style="position: fixed !important; right:15px !important; bottom: 5px !important;">
+    <a class="text-dark" href="https://api.whatsapp.com/send?phone=5591984147393" role="button">
+        <h1><i class="bg-white fab fa-whatsapp-square fa-lg"></i></h1>
+    </a>
+    <a class="text-dark" href="mailto:c2a@selecao.com.br?Subject=COMERCIAL" role="button">
+        <h1><i class="bg-white fas fa-envelope-square fa-lg"></i></h1>
+    </a>
+    <a class="text-dark" href="tel:+55914008-4008" role="button">
+        <h1><i class="bg-white fas fa-phone-square fa-lg"></i></h1>
+    </a>
+</section>
+<script src="js/main.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
         crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
 </body>
