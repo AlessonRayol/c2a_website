@@ -21,7 +21,3 @@
 @media (min-width: 1200px) {}
 
 @media (max-width: 1200px) {}
-
-.card {
-    border-radius: 30% 0 30% 0 !important;
-}
