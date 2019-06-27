@@ -1,0 +1,11 @@
+#icone-whatsapp:hover #whatsapp-flutuante {
+    display: block !important;
+}
+
+#icone-email:hover #email-flutuante {
+    display: block !important;
+}
+
+#icone-telefone:hover #telefone-flutuante {
+    display: block !important;
+}
