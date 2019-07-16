@@ -1,5 +1,69 @@
+@media (min-width: 576px) {
+    #image-c2a{
+        min-width: 576px !important;
+    }
+}
+
+@media (max-width: 576px) {
+
+}
+
+@media only screen and (min-width: 768px) {
+    #image-c2a{
+        min-width: 768px !important;
+    }
+    #resumo-1-mobile{
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #resumo-1-desktop{
+        display: none !important;
+    }
+}
+
+@media (min-width: 992px) {
+    #image-c2a{
+        min-width: calc(992px / 2) !important;
+    }
+}
+
+@media (max-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+    #image-c2a{
+        min-width: calc(1200px / 2) !important;
+    }
+}
+
+@media (max-width: 1200px) {
+
+}
+
+body {
+    background: #E6DADA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #274046, #E6DADA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #274046, #E6DADA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.custom-bg {
+    background: #ECE9E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#menu{
+    background: #ECE9E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 #icone-whatsapp:hover #whatsapp-flutuante {
-    display: block !important;
+    display: inline !important;
+    position: center !important;
 }
 
 #icone-email:hover #email-flutuante {

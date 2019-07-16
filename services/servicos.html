@@ -2,17 +2,18 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>C2A - Home</title>
+    <title>C2A - Soluções em Tecnologia</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://kit.fontawesome.com/0b1124127f.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/all.css">
+    <link rel="stylesheet" href="../css/servicos.css">
 </head>
 <body class="container-fluid">
-<header id="menu" class="mb-3">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+<header id="menu" class="custom-bg mb-3">
+    <nav class="navbar navbar-expand-lg navbar-light ">
         <img src="../assets/c2a/c2a-logo-vetor.png" alt="Logo da empresa C2A" style="height: 100px; width: 150px;">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
@@ -40,90 +41,141 @@
     </nav>
 </header>
 <main>
-    <section id="servicos-1" class="my-5">
-        <h1 class="display-5 text-center">SERVIÇOS</h1>
-        <div class="d-inline">
-            <div class="row">
-                <div class="col-sm bg-secondary text-center text-white m-2 servico">
-                    <div class="display-1">
-                        <i class="fas fa-print"></i>
-                    </div>
-                    <h1>
-                        Locação de impressoras
-                    </h1>
-                    <p>
-                        A C2A é a maior empresa da região norte na área de outsourcing de impressão, possuindo uma parque de mais de 3 mil impressoras locadas.
-                    </p>
+    <section>
+        <div class="container py-5">
+            <div class="row mb-5">
+                <div class="col-lg-8 text-light py-4 text-center mx-auto">
+                    <h1 class="display-4">Outsourçing de Impressão</h1>
+                    <p class="lead mb-0">saiba mais sobre o que nossa empresa tem a oferecer</p>
                 </div>
-                <div class="col-sm bg-secondary text-center text-white m-2 servico">
-                    <div class="display-1">
-                        <i class="fas fa-cloud-upload-alt"></i>
+            </div>
+            <div class="p-5 custom-bg rounded shadow mb-5">
+                <ul id="myTab" role="tablist" class="nav nav-tabs nav-pills flex-column flex-sm-row text-center bg-light border-0 rounded-nav">
+                    <li class="nav-item flex-sm-fill">
+                        <a id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true" class="nav-link border-0 text-uppercase font-weight-bold active">Logistica de Suprimentos</a>
+                    </li>
+                    <li class="nav-item flex-sm-fill">
+                        <a id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false" class="nav-link border-0 text-uppercase font-weight-bold">Gestão de Documentos</a>
+                    </li>
+                    <li class="nav-item flex-sm-fill">
+                        <a id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false" class="nav-link border-0 text-uppercase font-weight-bold">Assistencia Tecnica</a>
+                    </li>
+                </ul>
+                <div id="myTabContent" class="tab-content">
+                    <div id="home" role="tabpanel" aria-labelledby="home-tab" class="tab-pane fade px-4 py-5 show active">
+                        <p class="text-muted">O nível de suprimentos é controlado remotamente, pela nossa central de logística, ou seja, antes que o papel ou tinta acabem, o cliente recebe esses ou quais quer outros insumos diretamente na empresa , sem precisar se preocupar com aquisição, transporte ou estoque.</p>
                     </div>
-                    <h1>
-                        Gestão de Documentos
-                    </h1>
-                    <p>
-                        Com o Sistema de Gestão de Documentos, você acompanha todo o processo de criação, revisão, aprovação e publicação dos seus documentos, tudo em um só lugar, contribuindo para redução de custos operacionais, desperdício de papel e retrabalho.
-                    </p>
-                </div>
-                <div class="col-sm bg-secondary text-center text-white m-2 servico">
-                    <div class="display-1">
-                        <i class="far fa-copy"></i>
+                    <div id="profile" role="tabpanel" aria-labelledby="profile-tab" class="tab-pane fade px-4 py-5">
+                        <p class="text-muted">A C2A dispõe de um sistema de gerenciamento de impressão  completo, incluindo controle de impressão por usuário, software de bilhetagem de impressão, sistema de cotas por usuários  e segurança aprimorada.</p>
                     </div>
-                    <h1>
-                        Digitalização e impressão de documentos
-                    </h1>
-                    <p>
-                        Somos especialistas em impressão de documentos de baixa e larga escala e possuímos as mais avançadas técnicas para digitalização de documentos consulte nossas condições especiais.
-                    </p>
+                    <div id="contact" role="tabpanel" aria-labelledby="contact-tab" class="tab-pane fade px-4 py-5">
+                        <p class="text-muted">Temos um laboratório com profissionais capacitados para atender todos os nossos clientes dentro e fora do estado. A assistência técnica e manutenção são garantidas por todo o período contratual.</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    <section>
-
+    <section class="my-5">
+        <div class="row mb-5">
+            <div class="col-lg-8 text-light py-4 text-center mx-auto">
+                <h1 class="display-4">O Que é Outsoucing:</h1>
+            </div>
+        </div>
+        <div class="m-5 p-5 custom-bg rounded shadow mb-5">
+            <p class="text-muted text-justify">Outsourcing é a locação de equipamentos multifuncionais a laser, impressoras e de todos os serviços relacionados a impressão.</p>
+            <p class="text-muted text-justify">O serviço de outsourcing pode ser implantado em pequenas, medias e grandes empresas de natureza publica ou privada, cujo objetivo é ter um melhor desempenho nas atividades organizacionais, um melhor gerenciamento do parque de impressão, e principalmente a redução de custos.</p>
+        </div>
+    </section>
+    <section class="my-5">
+        <div class="row mb-5">
+            <div class="col-lg-8 text-light py-4 text-center mx-auto">
+                <h1 class="display-4">Porque Outsoucing</h1>
+                <p class="lead mb-0">como a sua empresa pode se beneficiar com nossos servicos</p>
+            </div>
+        </div>
+        <div class="d-inline">
+            <div class="row">
+                <div class="col-sm text-center text-dark m-3 rounded shadow custom-bg">
+                    <div class="display-1">
+                        <i class="fas fa-people-carry mb-3"></i>
+                    </div>
+                    <h1 class="mb-3">
+                        Logistica<br>
+                    </h1>
+                    <p class="mb-3">por que seu negocio nao pode parar por falta de papel</p>
+                </div>
+                <div class="col-sm text-center text-dark m-3 rounded shadow custom-bg">
+                    <div class="display-1">
+                        <i class="fas fa-truck-loading mb-3"></i>
+                    </div>
+                    <h1 class="mb-3">
+                        Estoque Zero<br>
+                    </h1>
+                    <p class="mb-3">menos espaço fisico, menos dor de cabeça com compras, mais eficiencia</p>
+                </div>
+                <div class="col-sm text-center text-dark m-3 rounded shadow custom-bg">
+                    <div class="display-1">
+                        <i class="fas fa-hand-holding-usd mb-3"></i>
+                    </div>
+                    <h1 class="mb-3">
+                        Redução de Custos<br>
+                    </h1>
+                    <p class="mb-3">sem mais gastos com aquisições ou manutenção de maquinas </p>
+                </div>
+            </div>
+        </div>
     </section>
 </main>
 <section id="contatos">
-    <footer class="p-2 bg-secondary">
-        <ul class="list-group list-group-flush">
-            <li class="bg-secondary text-white list-group-item">
-                <h4>Fale Conosco</h4>
-            </li>
-            <li class="bg-secondary text-white list-group-item">
-                <p>
-                    <i class="fab fa-whatsapp"></i>
-                    <a class="text-white" href="https://api.whatsapp.com/send?phone=5591984147393">
-                        Whatsapp: (91) 98414-7393
-                    </a>
-                </p>
-            </li>
-            <li class="bg-secondary text-white list-group-item">
-                <p>
-                    <i class="far fa-envelope"></i>
-                    <a class="text-white" href="mailto:c2a@selecao.com.br?Subject=COMERCIAL">
-                        E-mail: c2a@selecao.com.br
-                    </a>
-                </p>
-            </li>
-            <li class="bg-secondary text-white list-group-item">
-                <p>
-                    <i class="fas fa-phone"></i>
-                    <a class="text-white" href="tel:+55914008-4008">
-                        Telefone: (91) 4008-4008
-                    </a>
-                </p>
-            </li>
-            <li class="bg-secondary text-white list-group-item">
-                <h5 class="mb-1">Endereço</h5>
-                <p class="mb-1">Avenida Gentil de Bittencourt. N 554. Entre Rui Barbosa e Benjamin Constant</p>
-                <small>De Segunda a Sexta das 8h as 18h</small>
-            </li>
-        </ul>
-        <p class="text-center text-white mt-5">©2019 Copyright: Vinicius Valente</p>
+    <footer class="custom-bg">
+        <div class="row">
+            <h4 class="mx-auto my-5 text-dark">Fale Conosco</h4>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <ul class="list-group list-group-flush">
+                    <li class="bg-transparent text-dark list-group-item">
+                        <p>
+                            <i class="fab fa-whatsapp"></i>
+                            <a class="text-dark" href="https://api.whatsapp.com/send?phone=5591984147393">
+                                Whatsapp: (91) 98414-7393
+                            </a>
+                        </p>
+                    </li>
+                    <li class="bg-transparent text-dark list-group-item">
+                        <p>
+                            <i class="far fa-envelope"></i>
+                            <a class="text-dark" href="mailto:c2a@selecao.com.br?Subject=COMERCIAL">
+                                E-mail: c2a@selecao.com.br
+                            </a>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-6">
+                <ul class="list-group list-group-flush">
+                    <li class="bg-transparent text-dark list-group-item">
+                        <p>
+                            <i class="fas fa-phone"></i>
+                            <a class="text-dark" href="tel:+55914008-4008">
+                                Telefone: (91) 4008-4008
+                            </a>
+                        </p>
+                    </li>
+                    <li class="bg-transparent text-dark list-group-item">
+                        <h5 class="mb-1">Endereço</h5>
+                        <p class="mb-1">Avenida Gentil de Bittencourt. N 554. Entre Rui Barbosa e Benjamin Constant</p>
+                        <small>De Segunda a Sexta das 8h as 18h</small>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <p class="text-center text-dark mt-5 mx-auto">©2019 Copyright: Vinicius Valente</p>
+        </div>
     </footer>
 </section>
-<section style="position: fixed !important; right:15px !important; bottom: 5px !important;">
+<section id="icones-laterais" style="position: fixed !important; right:15px !important; bottom: 5px !important;">
     <div class="d-inline">
         <div class="col">
             <div id="icone-whatsapp" class="justify-content-end row">
