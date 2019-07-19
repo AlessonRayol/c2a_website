@@ -1,1 +1,5 @@
-
+body {
+    background: #E6DADA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right,rgb(80, 80, 80), rgb(210, 210, 210));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgb(80, 80, 80), rgb(210, 210, 210)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}

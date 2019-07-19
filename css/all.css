@@ -59,20 +59,8 @@
 
 }
 
-body {
-    background: #E6DADA;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right,rgb(80, 80, 80), rgb(210, 210, 210));  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, rgb(80, 80, 80), rgb(210, 210, 210)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
 .custom-bg {
     background: #ECE9E6;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
-.custom-bg-2 {
-    background: #ECE9E6;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, rgb(117, 82, 82), rgb(86, 119, 79));  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, rgb(138, 138, 182), rgb(55, 124, 141)) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
