@@ -3,3 +3,23 @@ body {
     background: -webkit-linear-gradient(to right,rgb(80, 80, 80), rgb(210, 210, 210));  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, rgb(80, 80, 80), rgb(210, 210, 210)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
+.image-sized {
+    width: 400px !important;
+    height: 200px !important;
+}
+
+.image-sized-2 {
+    width: 200px !important;
+    height: 200px !important;
+}
+
+.image-sized-3 {
+    width: 50px !important;
+    height: 50px !important;
+}
+
+.vertical-align {
+    display: flex !important;
+    align-items: center !important;
+}
