@@ -1,5 +1,18 @@
 body {
-    background: #E6DADA;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right,rgb(180, 180, 180), rgb(255, 255, 255));  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, rgb(180, 180, 180), rgb(255, 255, 255)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: rgb(150, 0, 0);  /* fallback for old browsers */
+    background: -webkit-linear-gradient(145deg,rgb(100, 0, 0), rgb(200, 0, 0)); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(145deg,rgb(100, 0, 0), rgb(200, 0, 0));
+} /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+.text-main {
+    color: #0000007e !important;
+}
+
+.contact-item:hover {
+    background-color: #0000007e !important;
+    color: #ffffffe0 !important;
+}
+
+.contact-item:hover h3 {
+    color: #ffffffe0 !important;
 }
