@@ -12,15 +12,10 @@
     #image-c2a{
         min-width: 768px !important;
     }
-    #resumo-1-mobile{
-        display: none !important;
-    }
 }
 
 @media only screen and (max-width: 768px) {
-    #resumo-1-desktop{
-        display: none !important;
-    }
+    
 }
 
 @media (min-width: 992px) {
