@@ -56,3 +56,12 @@ body {
 .bg-white {
     background-color: white !important;
 }
+
+.carousel-indicators li {
+    background-color: rgb(25, 25, 25) !important;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%);
+}

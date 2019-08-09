@@ -5,20 +5,26 @@
 }
 
 @media (max-width: 576px) {
-
 }
 
-@media only screen and (min-width: 768px) {
+@media (min-width: 768px) {
     #image-c2a{
         min-width: 768px !important;
     }
 }
 
-@media only screen and (max-width: 768px) {
-    
+@media (max-width: 768px) {
 }
 
 @media (min-width: 992px) {
+
+    .arrow-desktop {
+        display: block !important;
+    }
+
+    .arrow-mobile {
+        display: none !important;
+    }
 
     #icone-whatsapp:hover #whatsapp-flutuante {
         display: inline !important;
@@ -41,7 +47,13 @@
 }
 
 @media (max-width: 992px) {
+    .arrow-desktop {
+        display: none !important;
+    }
 
+    .arrow-mobile {
+        display: block !important;
+    }
 }
 
 @media (min-width: 1200px) {
